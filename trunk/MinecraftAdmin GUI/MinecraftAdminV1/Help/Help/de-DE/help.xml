@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../shema.xsd">
+  <element>
+    <title>Zicore's Mincraft Admin</title>
+    <text><![CDATA[Documentation about ZMA]]></text>
+    <element>
+      <title>1. Installation</title>
+      <text><![CDATA[Informations about the Installation of Zicore's Minecraft Admin]]></text>
+      <element>
+        <title>1.1 Download</title>
+        <text><![CDATA[Pick the latest Version from the link below and download it.
+Extract the contents to a folder.]]></text>
+        <link>http://www.zicore.de/tools/zma</link>
+      </element>
+      <element>
+        <title>1.2 Configuration</title>
+        <text>Informations about the configuration ZMA</text>
+        <link>http://www.zicore.de/</link>
+        <image source="pack://siteoforigin:,,,/Help/de-DE/img/config.jpg" stretch="Uniform">Config Dialog</image>
+        <element>
+          <title>1.2.1 server.properties</title>
+          <text>Open the server.properties file
+and have a look at these two lines:
+
+(Default)
+server-ip=
+server-port=25565
+
+In order to get ZMA run, you need you change the port to another one e.g. 25567.
+
+(Working with ZMA)
+#Minecraft server properties
+#Fri Feb 25 20:03:06 CET 2011
+level-name=world
+hellworld=false
+spawn-monsters=false
+monsters=false
+online-mode=true
+spawn-animals=true
+no-animals=true
+server-ip=
+max-players=20
+pvp=true
+server-port=25567
+white-list=false
+
+'server-ip=' should be clear
+</text>
+          <image source="" stretch="Uniform" />
+          <link />
+        </element>
+        <element>
+          <title>1.2.2 ZMA Settings</title>
+          <text>Start ZMA and press CTRL + T to open the settings dialog. (Settings-&gt;Config)
+You'll see a dialog like in the picture below.
+
+The most important settings are: java path, startparameters and minecraft jar
+you see the reference settings in the picture.
+
+Be sure that the java path matches yours and be aware that, if you use a x86 system,
+there is no Program Files(x86). Use Program Files instead.
+
+If you're done press OK to save the settings.</text>
+          <image source="pack://siteoforigin:,,,/pack://siteoforigin:,,,/Help/de-DE/img/settings.jpg" stretch="Uniform">Settings dialog</image>
+          <link />
+        </element>
+        <element>
+          <title>1.2.3 Tunnel</title>
+          <text>Start ZMA and switch to the Tunneling 'Tab'
+
+There is a 'server port' and a 'public port'
+The port players will connect to, is the 'public port'.
+
+Forward the public port in your router,firewall,windows-firewall etc.
+The 'server port', is the port on which the server is actually running on.
+You should have already defined that in the 'server.properties' file.
+
+(For example:)
+#Minecraft server properties
+#Fri Feb 25 20:03:06 CET 2011
+level-name=world
+hellworld=false
+spawn-monsters=false
+monsters=false
+online-mode=true
+spawn-animals=true
+no-animals=true
+server-ip=
+max-players=20
+pvp=true
+server-port=25567
+white-list=false
+</text>
+          <image source="pack://siteoforigin:,,,/pack://siteoforigin:,,,/Help/de-DE/img/tunneling.jpg" stretch="Uniform">Tunnel Tab</image>
+          <link />
+        </element>
+        <element>
+          <title>1.2.4 Starting the server</title>
+          <text>After the tunnel is set up, you can start the server with pressing CTRL + S or click on Server-&gt;Start.
+Two text labels should go green now on the bottom, which are showing wether the server is running.
+
+On starting the server you should see something like this in the Input/Output 'Tab'
+2011-03-25 21:18:26 [INFO] Starting minecraft server version Beta 1.3
+2011-03-25 21:18:26 [INFO] Loading properties
+2011-03-25 21:18:26 [INFO] Starting Minecraft server on *:25567
+2011-03-25 21:18:26 [INFO] Preparing level "world"
+2011-03-25 21:18:26 [INFO] Preparing start region
+2011-03-25 21:18:27 [INFO] Done (927674175ns)! For help, type "help" or "?"
+
+Try to connect with the minecraft client now.
+</text>
+          <image source="pack://siteoforigin:,,,/pack://siteoforigin:,,,/Help/de-DE/img/starting.jpg" stretch="Uniform">Starting</image>
+          <link />
+          <element>
+            <title>1.2.4.1 Common problems</title>
+            <text>List of common problems with ZMA and how to get around it</text>
+            <image source="" stretch="Uniform" />
+            <link />
+            <element>
+              <title>Q: I stuck at logging in</title>
+              <text>A: switch to the tunneling tab and check if there are the same ports.
+	The ports must be different!
+	See 1.2.3 for this.</text>
+              <image source="" stretch="Uniform" />
+              <link />
+            </element>
+            <element>
+              <title>Q: i get **** FAILED TO BIND TO PORT !:</title>
+              <text>2011-03-25 21:23:26 [INFO] Starting minecraft server version Beta 1.3
+2011-03-25 21:23:26 [INFO] Loading properties
+2011-03-25 21:23:26 [INFO] Starting Minecraft server on *:25567
+2011-03-25 21:23:26 [WARNING] **** FAILED TO BIND TO PORT!
+2011-03-25 21:23:26 [WARNING] The exception was: java.net.BindException: Address already in use: JVM_Bind
+2011-03-25 21:23:26 [WARNING] Perhaps a server is already running on that port?
+
+A: See answer from above, the ports must be different</text>
+              <image source="" stretch="Uniform" />
+              <link />
+            </element>
+            <element>
+              <title>Q: I am still having this issues</title>
+              <text>(Regarding: **** FAILED TO BIND TO PORT)
+A: After changing the ports in ZMA, restart it and then open the taskmanager, and kill all java.exe processes.
+	Start the server with ZMA again.</text>
+              <image source="" stretch="Uniform" />
+              <link />
+            </element>
+          </element>
+        </element>
+      </element>
+    </element>
+  </element>
+</root>

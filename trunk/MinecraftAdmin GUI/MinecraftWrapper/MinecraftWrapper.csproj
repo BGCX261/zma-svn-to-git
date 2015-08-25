@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C47D56BC-B5F1-4555-8534-5C4518F31AE9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MinecraftWrapper</RootNamespace>
+    <AssemblyName>MinecraftWrapper</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Zicores Minecraft Admin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MinecraftAdminV1\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddonInterface\Actions\EventProvider.cs" />
+    <Compile Include="AddonInterface\AddonCollection.cs" />
+    <Compile Include="AddonInterface\AddonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddonInterface\AddonForm.Designer.cs">
+      <DependentUpon>AddonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddonInterface\AddonLoader.cs" />
+    <Compile Include="BigEndianBitConverter.cs" />
+    <Compile Include="Chat\Channel.cs" />
+    <Compile Include="Chat\ChannelCollection.cs" />
+    <Compile Include="Commands\CommandBalance.cs" />
+    <Compile Include="Commands\CommandPay.cs" />
+    <Compile Include="Commands\CommandSteal.cs" />
+    <Compile Include="Commands\CommandGiveMoney.cs" />
+    <Compile Include="Commands\CommandBuy.cs" />
+    <Compile Include="Commands\CommandPrice.cs" />
+    <Compile Include="AddonInterface\IActions.cs" />
+    <Compile Include="AddonInterface\IClient.cs" />
+    <Compile Include="AddonInterface\ICommand.cs" />
+    <Compile Include="AddonInterface\ICommandManager.cs" />
+    <Compile Include="AddonInterface\IMinecraftHandler.cs" />
+    <Compile Include="AddonInterface\IPlugin.cs" />
+    <Compile Include="AddonInterface\IServer.cs" />
+    <Compile Include="Admins\UserCollectionSingletone.cs" />
+    <Compile Include="Admins\User.cs" />
+    <Compile Include="Admins\UserCollection.cs" />
+    <Compile Include="Blocks\BlockCollection.cs" />
+    <Compile Include="Chat\ColorChar.cs" />
+    <Compile Include="Chat\ColorCollection.cs" />
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\CommandBan.cs" />
+    <Compile Include="Commands\CommandHelp.cs" />
+    <Compile Include="Commands\CommandCopyright.cs" />
+    <Compile Include="Commands\CommandTeleport.cs" />
+    <Compile Include="Commands\CommandZone.cs" />
+    <Compile Include="Commands\CommandDeOp.cs" />
+    <Compile Include="Commands\CommandGet.cs" />
+    <Compile Include="Commands\CommandGive.cs" />
+    <Compile Include="Commands\CommandManager.cs" />
+    <Compile Include="Commands\CommandHug.cs" />
+    <Compile Include="Commands\CommandInfo.cs" />
+    <Compile Include="Commands\CommandKick.cs" />
+    <Compile Include="Commands\CommandKit.cs" />
+    <Compile Include="Commands\CommandKits.cs" />
+    <Compile Include="Commands\CommandOp.cs" />
+    <Compile Include="Commands\CommandResult.cs" />
+    <Compile Include="Commands\CommandRules.cs" />
+    <Compile Include="Commands\CommandSave.cs" />
+    <Compile Include="Commands\CommandSay.cs" />
+    <Compile Include="Commands\CommandTo.cs" />
+    <Compile Include="Commands\CommandTp.cs" />
+    <Compile Include="Commands\CommandUnban.cs" />
+    <Compile Include="Commands\CommandWho.cs" />
+    <Compile Include="Commands\CommandBackup.cs" />
+    <Compile Include="Commands\CommandTell.cs" />
+    <Compile Include="Commands\CommandHi.cs" />
+    <Compile Include="Commands\CommandTime.cs" />
+    <Compile Include="Commands\CommandClearAccounts.cs" />
+    <Compile Include="Commands\CommandZGroup.cs" />
+    <Compile Include="Commands\CommandZMessage.cs" />
+    <Compile Include="Commands\CommandZAdd.cs" />
+    <Compile Include="Commands\CommandZRemove.cs" />
+    <Compile Include="Commands\CommandZDelete.cs" />
+    <Compile Include="Commands\CommandZList.cs" />
+    <Compile Include="Commands\CommandZones.cs" />
+    <Compile Include="Commands\CommandMOTD.cs" />
+    <Compile Include="Commands\CommandPosition.cs" />
+    <Compile Include="Commands\CommandZInfo.cs" />
+    <Compile Include="Commands\CommandZDescription.cs" />
+    <Compile Include="Commands\CommandZOwner.cs" />
+    <Compile Include="Commands\CommandZBlocklevel.cs" />
+    <Compile Include="Commands\CommandMute.cs" />
+    <Compile Include="Commands\CommandGroupMute.cs" />
+    <Compile Include="Commands\CommandJoinChannel.cs" />
+    <Compile Include="Commands\CommandLeaveChannel.cs" />
+    <Compile Include="Commands\CommandChannelInfo.cs" />
+    <Compile Include="Commands\CommandRestart.cs" />
+    <Compile Include="Commands\CommandNPC.cs" />
+    <Compile Include="Commands\CommandAddNPC.cs" />
+    <Compile Include="Commands\CommandSpeakThrough.cs" />
+    <Compile Include="EndianBitConverter.cs" />
+    <Compile Include="HashProvider.cs" />
+    <Compile Include="WrapperEventArgs\ClientExceptionEventArgs.cs" />
+    <Compile Include="Exceptions\KeyValueNotFoundException.cs" />
+    <Compile Include="ExternalComponents\LockFreeQueue.cs" />
+    <Compile Include="ExternalComponents\SortableBindingList.cs" />
+    <Compile Include="ExternalComponents\ZipUtil.cs" />
+    <Compile Include="Groups\Group.cs" />
+    <Compile Include="Groups\GroupCollection.cs" />
+    <Compile Include="Blocks\BlockItem.cs" />
+    <Compile Include="Groups\GroupCollectionSingletone.cs" />
+    <Compile Include="IO\Config.cs" />
+    <Compile Include="IO\Log.cs" />
+    <Compile Include="Items\ItemDictonary.cs" />
+    <Compile Include="Items\Kits\Kit.cs" />
+    <Compile Include="Items\Kits\KitItem.cs" />
+    <Compile Include="Items\Kits\KitReader.cs" />
+    <Compile Include="MainClasses\DatabaseAction.cs" />
+    <Compile Include="MainClasses\DatabaseWorker.cs" />
+    <Compile Include="MainClasses\EasyGuess.cs" />
+    <Compile Include="MainClasses\EnhancedSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainClasses\MinecraftHandler.cs" />
+    <Compile Include="MainClasses\ObservableCollection.cs" />
+    <Compile Include="MainClasses\ServerPropertiesCollection.cs" />
+    <Compile Include="MainClasses\ServerPropertiesParser.cs" />
+    <Compile Include="MainClasses\ZmaUtils.cs" />
+    <Compile Include="Player\XPlayer.cs" />
+    <Compile Include="Player\XPosition.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protocoll\PacketGenerator.cs" />
+    <Compile Include="Tunnel\ClientNpc.cs" />
+    <Compile Include="Tunnel\PacketHandler.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="WebInterface\MySQLConnector.cs" />
+    <Compile Include="WebInterface\QueryResult.cs" />
+    <Compile Include="WebInterface\WebActionCommand.cs" />
+    <Compile Include="WebInterface\WebHandler.cs" />
+    <Compile Include="WebInterface\ZmaSQLConnection.cs" />
+    <Compile Include="Tunnel\ByteArythmetic.cs" />
+    <Compile Include="Tunnel\ClientSocket.cs" />
+    <Compile Include="Tunnel\MinecraftEnums.cs" />
+    <Compile Include="Tunnel\ReversedBitConverter.cs" />
+    <Compile Include="Tunnel\ServerSocket.cs" />
+    <Compile Include="Tunnel\TcpTunnelServer.cs" />
+    <Compile Include="Tunnel\TimeOutSocket.cs" />
+    <Compile Include="Tunnel\Utils.cs" />
+    <Compile Include="Player\Vector3.cs" />
+    <Compile Include="XML\XClass.cs" />
+    <Compile Include="XML\XObject.cs" />
+    <Compile Include="Zones\ZoneCollectionSingletone.cs" />
+    <Compile Include="Zones\Zone.cs" />
+    <Compile Include="Zones\ZoneCollection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddonInterface\AddonForm.resx">
+      <DependentUpon>AddonForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlFiles\Tables.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_StartDate="2010/8/30" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

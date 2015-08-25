@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="shema"
+    targetNamespace="http://zicore.de/helpviewer/shema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://zicore.de/helpviewer/shema.xsd"
+    xmlns:mstns="http://zicore.de/helpviewer/shema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="root" type="root"/>
+
+  <xs:complexType name="root">
+    <xs:sequence>
+      <xs:element name="element" type="element"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="element">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="text" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="image">
+    <xs:sequence>
+      <xs:element name="image" type="xs:string"></xs:element>
+    </xs:sequence>
+      <xs:attribute name="stretch" type="stretchType" default="Uniform"/>
+  </xs:complexType>
+
+  <xs:simpleType name="stretchType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None"/>
+      <xs:enumeration value="Fill"/>
+      <xs:enumeration value="Uniform"/>
+      <xs:enumeration value="UniformToFill"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

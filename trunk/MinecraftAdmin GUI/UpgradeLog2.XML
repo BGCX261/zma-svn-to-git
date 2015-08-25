@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MinecraftAdminV1">
+</Property><Property Name="Projektmappendatei" Value="F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\MinecraftAdminV1.sln">
+</Property><Property Name="Date" Value="Samstag, 15. Januar 2011">
+</Property><Property Name="Time" Value="23:58:26">
+</Property><Property Name="Protokollnummer" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RSS.NET.csproj" Description="Projektdatei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RSS.NET.csproj">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\AssemblyInfo.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\ExceptionCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\ExceptionCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\RssCategoryCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\RssCategoryCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\RssChannelCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\RssChannelCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\RssFeedCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\RssFeedCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\RssItemCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\RssItemCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\RssModuleCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\RssModuleCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\RssModuleItemCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\RssModuleItemCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Collections\RssModuleItemCollectionCollection.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Collections\RssModuleItemCollectionCollection.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssChannel\RssChannel.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssChannel\RssChannel.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssChannel\RssCloud.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssChannel\RssCloud.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssChannel\RssImage.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssChannel\RssImage.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssChannel\RssTextInput.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssChannel\RssTextInput.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssFeed.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssFeed.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssItem\RssEnclosure.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssItem\RssEnclosure.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssItem\RssGuid.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssItem\RssGuid.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssItem\RssItem.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssItem\RssItem.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssItem\RssSource.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssItem\RssSource.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssModule.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssModule.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssModuleItem.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssModuleItem.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssModules\RssBlogChannel.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssModules\RssBlogChannel.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssModules\RssCreativeCommon.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssModules\RssCreativeCommon.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssModules\RssPhotoAlbum.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssModules\RssPhotoAlbum.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssReader.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssReader.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RssWriter.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\RssWriter.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Shared\DBBool.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Shared\DBBool.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Shared\RssCategory.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Shared\RssCategory.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Shared\RssDefault.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Shared\RssDefault.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Shared\RssElement.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Shared\RssElement.cs">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\Shared\RssEnumerators.cs" Description="Datei erfolgreich gesichert als F:\Entwicklung\Net svn\zma\MinecraftAdmin GUI\Backup1\Shared\RssEnumerators.cs">
+</Event><Event ErrorLevel="1" Project="RSS.NET" Source="RSS.NET\RSS.NET.csproj" Description="Das Projekt ist für .NET Framework 2.0 oder 3.0 konzipiert. Wenn für das Projekt Assemblys verwendet werden, die eine neuere Version von .NET Framework erfordern, kann das Projekt nicht erstellt werden. Die .NET Framework-Version kann durch Klicken auf &quot;Eigenschaften&quot; im Projektmenü und durch anschließendes Auswählen einer neuen Version im Dropdownfeld &quot;.NET Framework&quot; geändert werden. (In Visual Basic befindet sich dieses Feld auf der Registerkarte &quot;Kompilieren&quot;. Klicken Sie auf die Schaltfläche &quot;Erweiterte Compileroptionen...&quot;.)">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RSS.NET.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="RSS.NET" Source="RSS.NET\RSS.NET.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET\RSS.NET.csproj" Description="Überprüfung abgeschlossen: Upgrade der Projektdateien nicht erforderlich.">
+</Event></UpgradeLog>

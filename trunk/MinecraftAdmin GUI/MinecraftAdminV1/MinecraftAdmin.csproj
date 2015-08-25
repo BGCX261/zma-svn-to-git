@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D74B3CBB-0AC1-4360-82FA-813230F284E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vitt.Andre.MinecraftAdmin</RootNamespace>
+    <AssemblyName>Zicores Minecraft Admin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Zicores Minecraft Admin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\Zicores Minecraft Admin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="updateSystemDotNet.Controller, Version=1.1.80.1128, Culture=neutral, PublicKeyToken=4b29b2d1691903dc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\updateSystem.NET Beta\Deploy\updateSystemDotNet.Controller.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialogs\BadBlocksForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\BadBlocksForm.Designer.cs">
+      <DependentUpon>BadBlocksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\HelpDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\HelpDialog.Designer.cs">
+      <DependentUpon>HelpDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\PricesBlocksForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\PricesBlocksForm.Designer.cs">
+      <DependentUpon>PricesBlocksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\UpdateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\UpdateDialog.Designer.cs">
+      <DependentUpon>UpdateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\UpdateWebUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\UpdateWebUser.Designer.cs">
+      <DependentUpon>UpdateWebUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ZoneForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ZoneForm.Designer.cs">
+      <DependentUpon>ZoneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\UserForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ConfigForm.Designer.cs">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\KitEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\KitEditor.Designer.cs">
+      <DependentUpon>KitEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\GroupEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\GroupEditor.Designer.cs">
+      <DependentUpon>GroupEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Whitelist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Whitelist.Designer.cs">
+      <DependentUpon>Whitelist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Playerlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Playerlist.Designer.cs">
+      <DependentUpon>Playerlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Banlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Banlist.Designer.cs">
+      <DependentUpon>Banlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup\StartupActions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Help\Help\shema.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialogs\BadBlocksForm.resx">
+      <DependentUpon>BadBlocksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\HelpDialog.resx">
+      <DependentUpon>HelpDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\PricesBlocksForm.resx">
+      <DependentUpon>PricesBlocksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UpdateDialog.resx">
+      <DependentUpon>UpdateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UpdateWebUser.resx">
+      <DependentUpon>UpdateWebUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ZoneForm.resx">
+      <DependentUpon>ZoneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ConfigForm.resx">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\KitEditor.resx">
+      <DependentUpon>KitEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\GroupEditor.resx">
+      <DependentUpon>GroupEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Whitelist.resx">
+      <DependentUpon>Whitelist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Playerlist.resx">
+      <DependentUpon>Playerlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Banlist.resx">
+      <DependentUpon>Banlist.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ZicoresUtils\ZicoresUtils.csproj">
+      <Project>{A54E2798-EE37-4418-89C7-8B2A1B85D73C}</Project>
+      <Name>ZicoresUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MinecraftWrapper\MinecraftWrapper.csproj">
+      <Project>{C47D56BC-B5F1-4555-8534-5C4518F31AE9}</Project>
+      <Name>MinecraftWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskManager\TaskManagerLib.csproj">
+      <Project>{6D5F0E74-B8B0-43D6-ACE2-ECFF62A4B67C}</Project>
+      <Name>TaskManagerLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HelpOld\content\configuration.html" />
+    <Content Include="HelpOld\content\tunnel.html" />
+    <Content Include="HelpOld\img\config.png" />
+    <Content Include="HelpOld\img\shema.png" />
+    <Content Include="HelpOld\img\tunnel.png" />
+    <Content Include="HelpOld\index.html" />
+    <Content Include="HelpOld\style\style.css" />
+    <None Include="Help\Help\de-DE\help.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Help\Help\de-DE\img\config.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Help\Help\de-DE\img\groups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Help\Help\de-DE\img\settings.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Help\Help\de-DE\img\starting.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Help\Help\de-DE\img\tunneling.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="icon.ico" />
+    <Content Include="Settings\CommandsHelp.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Settings\items.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Help\Zicores Help Viewer.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Help\ZicoreWpfComponents.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_UpdateAssemblyVersion="True" BuildVersion_StartDate="2010/8/30" BuildVersion_BuildVersioningStyle="None.None.Increment.YearDayOfYear" BuildVersion_UpdateFileVersion="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

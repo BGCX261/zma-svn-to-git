@@ -1,0 +1,198 @@
+   01    1  Stone
+   02    2  Grass
+   03    3  Dirt
+   04    4  Cobblestone
+   05    5  Wooden Plank
+   06    6  Sapling
+   07    7  Bedrock
+   08    8  Water
+   09    9  Stationary water
+   0A   10  Lava
+   0B   11  Stationary lava
+   0C   12  Sand
+   0D   13  Gravel
+   0E   14  Gold ore
+   0F   15  Iron ore
+   10   16  Coal ore
+   11   17  Wood
+   12   18  Leaves
+   13   19  Sponge
+   14   20  Glass
+   15   21  Lapis Lazuli ore
+   16   22  Lapis Lazuli block
+   17   23  Dispenser
+   18   24  Sandstone
+   19   25  Note block
+   1A   26  Bed block
+   1B   27  Powered Rail
+   1C   28  Detector Rail
+   1D   29  Empty_03
+   1E   30  Web
+   1F   31  Empty_05
+   20   32  Empty_06
+   21   33  Empty_07
+   22   34  Empty_08
+   23   35  Wool
+   24   36  Empty_09
+   25   37  Yellow flower
+   26   38  Red rose
+   27   39  Brown mushroom
+   28   40  Red mushroom
+   29   41  Gold Block
+   2A   42  Iron Block
+   2B   43  Double stone slap
+   2C   44  Stone slap
+   2D   45  Brick
+   2E   46  TNT
+   2F   47  Bookshelf
+   30   48  Mossy stone
+   31   49  Obsidian
+   32   50  Torch
+   33   51  Fire
+   34   52  Monster spawner
+   35   53  Wooden stairs
+   36   54  Chest
+   37   55  Redstone wire
+   38   56  Diamond ore
+   39   57  Diamond block
+   3A   58  Workbench
+   3B   59  Crops
+   3C   60  Soil
+   3D   61  Furnace
+   3E   62  Burning furnace
+   3F   63  Sign post
+   40   64  Wooden door
+   41   65  Ladder
+   42   66  Minecart tracks
+   43   67  Cobblestone stairs
+   44   68  Wall sign
+   45   69  Lever
+   46   70  Stone pressure plate
+   47   71  Iron door
+   48   72  Wooden plate
+   49   73  Redstone ore
+   4A   74  Glowing Redstone ore
+   4B   75  Redstone torch (off)
+   4C   76  Redstone torch (on)
+   4D   77  Stone button
+   4E   78  Snow
+   4F   79  Ice
+   50   80  Snow block
+   51   81  Cactus
+   52   82  Clay
+   53   83  Reed
+   54   84  Jukebox
+   55	85  Fence
+   56   86  Pumpkin
+   57   87  Netherrack
+   58   88  Soul Sand
+   59   89  Glowstone
+   5A   90  Portal
+   5B   91  Jack-O-Lantern
+   5C   92  Cake block
+   5D   93  Repeater Off
+   5E   94  Repeater On
+  100  256  Iron shovel
+  101  257  Iron pickaxe
+  102  258  Iron axe
+  103  259  Flint and steel
+  104  260  Apple
+  105  261  Bow
+  106  262  Arrow
+  107  263  Coal
+  108  264  Diamond
+  109  265  Iron Ingot
+  10A  266  Gold Ingot
+  10B  267  Iron sword
+  10C  268  Wood sword
+  10D  269  Wood shovel
+  10E  270  Wood pickaxe
+  10F  271  Wood axe
+  110  272  Stone sword
+  111  273  Stone shovel
+  112  274  Stone pickaxe
+  113  275  Stone axe
+  114  276  Diamond sword
+  115  277  Diamond shovel
+  116  278  Diamond pickaxe
+  117  279  Diamond axe
+  118  280  Stick
+  119  281  Bowl
+  11A  282  Mushroom soup
+  11B  283  Gold sword
+  11C  284  Gold shovel
+  11D  285  Gold pickaxe
+  11E  286  Gold axe
+  11F  287  String
+  120  288  Feather
+  121  289  Sulphur
+  122  290  Wood hoe
+  123  291  Stone hoe
+  124  292  Iron hoe
+  125  293  Diamond hoe
+  126  294  Gold hoe
+  127  295  Seeds
+  128  296  Wheat
+  129  297  Bread
+  12A  298  Leather helmet
+  12B  299  Leather chestplate
+  12C  300  Leather leggings
+  12D  301  Leather boots
+  12E  302  Chainmail helmet
+  12F  303  Chainmail chestplate
+  130  304  Chainmail leggings
+  131  305  Chainmail boots
+  132  306  Iron helmet
+  133  307  Iron chestplate
+  134  308  Iron leggings
+  135  309  Iron boots
+  136  310  Diamond helmet
+  137  311  Diamond chestplate
+  138  312  Diamond leggings
+  139  313  Diamond boots
+  13A  314  Gold helmet
+  13B  315  Gold chestplate
+  13C  316  Gold leggings
+  13D  317  Gold boots
+  13E  318  Flint
+  13F  319  Raw porkchop
+  140  320  Cooked porkchop
+  141  321  Paintings
+  142  322  Golden apple
+  143  323  Sign
+  144  324  Wooden door
+  145  325  Bucket
+  146  326  Water bucket
+  147  327  Lava bucket
+  148  328  Minecart
+  149  329  Saddle
+  14A  330  Iron door
+  14B  331  Redstone
+  14C  332  Snowball
+  14D  333  Boat
+  14E  334  Leather
+  14F  335  Milk
+  150  336  Clay brick
+  151  337  Clay balls
+  152  338  Reed
+  153  339  Paper
+  154  340  Book
+  155  341  Slimeball
+  156  342  Storage minecart
+  157  343  Powered minecart
+  158  344  Egg
+  159  345  Compass
+  15A  346  Fishing rod
+  15B  347  Clock
+  15C  348  Glowstone dust
+  15D  349  Raw fish
+  15E  350  Cooked fish
+  15F  351  Ink sack
+  160  352  Bone
+  161  353  Sugar
+  162  354  Cake item
+  163  355  Bed item
+  164  356  Repeater item
+  165  357  Cookie
+  8D0  2256 Gold Music Disc
+  8D1  2257 Green Music Disc
